@@ -1,0 +1,41 @@
+{
+  "name": "@xsfish/simple-aws",
+  "version": "0.0.1",
+  "description": "A simple wrapper around AWS S3 client for common use cases.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berman82312/simple-aws.git"
+  },
+  "keywords": [
+    "AWS",
+    "S3",
+    "AWS client",
+    "upload S3"
+  ],
+  "author": "Littlefish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berman82312/simple-aws/issues"
+  },
+  "type": "module",
+  "types": "./build/index.d.ts",
+  "homepage": "https://github.com/berman82312/simple-aws#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2",
+    "vitest": "^1.3.1"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-s3": "3.x"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ]
+}
