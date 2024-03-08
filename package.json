@@ -1,5 +1,5 @@
 {
-  "name": "@xsfish/simple-aws",
+  "name": "@xsfish/simple-s3",
   "version": "0.0.1",
   "description": "A simple wrapper around AWS S3 client for common use cases.",
   "main": "build/index.js",
